@@ -1,4 +1,4 @@
-# asciiheader README
+# ASCIIheader README
 
 asciiheader creates ASCII headers in your source code 
 
@@ -8,7 +8,7 @@ I like to put headers into my CSS source so I can see more easily where I am in 
 
 ## Example
 
-
+	![example of the header - note the minimap view on the right](example.png)
 
 ## Status
 
