@@ -1,16 +1,7 @@
-# ASCIIheader README
+# ASCII header README
 
-asciiheader creates ASCII headers in your source code 
+ascii-header creates ASCII headers in your source code 
 
 ## About
 
-I like to put headers into my CSS source so I can see more easily where I am in the minimap in VSCode. To do that, I've been using sites like http://www.network-science.de/ascii/ to convert text into headers. I got tired of this and decided to build an extension to do this. 
-
-## Example
-
-![example of the header - note the minimap view on the right](example.png)
-
-## Status
-
-WIP. This extension works if you build it manually. I haven't finished testing it yet. 
-
+Renders inputted text as ASCII using figlet and the Roman ASCII font. Use it to put breaks into your CSS / JS source for easier navigation in minimap mode

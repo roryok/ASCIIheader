@@ -1,8 +1,8 @@
 {
-    "name": "asciiheader",
+    "name": "ascii-header",
     "displayName": "ASCIIheader",
     "description": "generate ASCII headers in comment blocks to help identify blocks in your minimap ",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "roryok",
     "engines": {
         "vscode": "^1.10.0"
@@ -11,14 +11,16 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.asciiHeader"
+        "onCommand:ascii-header.prompt"
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.asciiHeader",
-            "title": "ASCII Header"
-        }]
+        "commands": [
+            {
+                "command": "ascii-header.prompt",
+                "title": "ASCII Header"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
@@ -32,5 +34,8 @@
         "mocha": "^2.3.3",
         "@types/node": "^6.0.40",
         "@types/mocha": "^2.2.32"
+    },
+    "dependencies": {
+        "figlet": "^1.2.0"
     }
 }
