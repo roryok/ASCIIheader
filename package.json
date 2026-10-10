@@ -36,6 +36,6 @@
         "@types/mocha": "^2.2.32"
     },
     "dependencies": {
-        "figlet": "^1.2.0"
+        "figlet": "^1.11.3"
     }
 }
